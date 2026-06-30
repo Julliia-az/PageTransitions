@@ -1,6 +1,8 @@
 import { Instrument_Serif, Instrument_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Navbar";
+import TransitionProvider from "../providers/TransitionProvider";
+
 const InstrumentSerif = Instrument_Serif({
   variable: "--font-instrument-serif",
   subsets: ["latin"],
@@ -25,7 +27,7 @@ export default function RootLayout({ children }) {
     >
       <body>
         <Navbar />
-        {children}
+        <TransitionProvider>{children}</TransitionProvider>
       </body>
     </html>
   );

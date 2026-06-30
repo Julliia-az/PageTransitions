@@ -53,17 +53,17 @@ body {
 }
 
 .hero.genesis {
-  background: url(/img1.jpg) no-repeat 50% 50%;
+  background: url(/img1.webp) no-repeat 50% 50%;
   background-size: cover;
 }
 
 .hero.cascade {
-  background: url(/img2.avif) no-repeat 50% 50%;
+  background: url(/img2.webp) no-repeat 50% 50%;
   background-size: cover;
 }
 
 .hero.orbit {
-  background: url(/img3.jpg) no-repeat 50% 50%;
+  background: url(/img3.webp) no-repeat 50% 50%;
   background-size: cover;
 }
 
@@ -103,6 +103,6 @@ body {
 
 .transition-block {
   position: absolute;
-  background-color: var(--transition-grid);
+  background-color: var(--bg);
   will-change: transform;
 }
