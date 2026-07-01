@@ -3,6 +3,8 @@
 :root {
   --bg: #0f0f0f;
   --fg: #f2f0e6;
+  --gd: #0f0f0f83;
+  --og: #7a3803;
 }
 
 * {
@@ -19,11 +21,12 @@ body {
 .navbar {
   position: fixed;
   width: 100%;
-  padding: 1rem;
+  padding: 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   z-index: 2;
+  background-color: var(--gd);
 }
 
 .navbar-items {
@@ -103,6 +106,6 @@ body {
 
 .transition-block {
   position: absolute;
-  background-color: var(--bg);
+  background-color: var(--og);
   will-change: transform;
 }
